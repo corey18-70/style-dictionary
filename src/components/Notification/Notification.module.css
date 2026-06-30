@@ -1,0 +1,78 @@
+.root {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-3);
+  padding: var(--spacing-4) var(--spacing-5);
+  border-radius: var(--radius-lg);
+  border: 1px solid transparent;
+  font-family: var(--font-family-sans-serif);
+}
+
+.icon {
+  flex-shrink: 0;
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.body {
+  flex: 1;
+  min-width: 0;
+}
+
+.title {
+  margin: 0 0 2px;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--font-line-height-snug);
+}
+
+.message {
+  margin: 0;
+  font-size: var(--font-size-sm);
+  line-height: var(--font-line-height-normal);
+}
+
+.dismiss {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  border-radius: var(--radius-sm);
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.15s ease;
+  color: currentColor;
+}
+.dismiss:hover { opacity: 1; }
+
+/* Variants — map to status.* tokens */
+.info {
+  background-color: var(--status-info-surface);
+  border-color: var(--status-info-border);
+  color: var(--status-info-on-surface);
+}
+.info .icon { color: var(--status-info-icon); }
+
+.success {
+  background-color: var(--status-success-surface);
+  border-color: var(--status-success-border);
+  color: var(--status-success-on-surface);
+}
+.success .icon { color: var(--status-success-icon); }
+
+.warning {
+  background-color: var(--status-warning-surface);
+  border-color: var(--status-warning-border);
+  color: var(--status-warning-on-surface);
+}
+.warning .icon { color: var(--status-warning-icon); }
+
+.danger {
+  background-color: var(--status-danger-surface);
+  border-color: var(--status-danger-border);
+  color: var(--status-danger-on-surface);
+}
+.danger .icon { color: var(--status-danger-icon); }

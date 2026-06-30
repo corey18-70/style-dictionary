@@ -1,0 +1,102 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-2);
+  font-family: var(--font-family-sans-serif);
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--font-letter-spacing-normal);
+  border: 1.5px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, opacity 0.15s ease, box-shadow 0.15s ease;
+  outline: none;
+  white-space: nowrap;
+  line-height: var(--font-line-height-none);
+}
+
+.button:focus-visible {
+  box-shadow: 0 0 0 3px var(--border-focus);
+}
+
+/* Sizes — uses base spacing primitives directly */
+.sm {
+  font-size: var(--font-size-sm);
+  padding: var(--spacing-1) var(--spacing-3);
+  height: 32px;
+  border-radius: var(--radius-md);
+}
+.md {
+  font-size: var(--font-size-md);
+  padding: var(--spacing-2) var(--spacing-4);
+  height: 40px;
+  border-radius: var(--radius-md);
+}
+.lg {
+  font-size: var(--font-size-lg);
+  padding: var(--spacing-3) var(--spacing-6);
+  height: 48px;
+  border-radius: var(--radius-md);
+}
+
+/* Primary — maps to interactive.primary.* tokens */
+.primary {
+  background-color: var(--interactive-primary-surface-default);
+  border-color: var(--interactive-primary-border-default);
+  color: var(--interactive-primary-on-surface-default);
+}
+.primary:hover:not(:disabled) {
+  background-color: var(--interactive-primary-surface-hover);
+  border-color: var(--interactive-primary-border-hover);
+}
+.primary:active:not(:disabled) {
+  background-color: var(--interactive-primary-surface-active);
+  border-color: var(--interactive-primary-border-active);
+}
+
+/* Secondary — maps to interactive.secondary.* tokens */
+.secondary {
+  background-color: var(--interactive-secondary-surface-default);
+  border-color: var(--interactive-secondary-border-default);
+  color: var(--interactive-secondary-on-surface-default);
+}
+.secondary:hover:not(:disabled) {
+  background-color: var(--interactive-secondary-surface-hover);
+  border-color: var(--interactive-secondary-border-hover);
+}
+.secondary:active:not(:disabled) {
+  background-color: var(--interactive-secondary-surface-active);
+  border-color: var(--interactive-secondary-border-active);
+}
+
+/* Ghost — maps to interactive.tertiary.* tokens */
+.ghost {
+  background-color: var(--interactive-tertiary-surface-default);
+  border-color: var(--interactive-tertiary-border-default);
+  color: var(--interactive-tertiary-on-surface-default);
+}
+.ghost:hover:not(:disabled) {
+  background-color: var(--interactive-tertiary-surface-hover);
+}
+.ghost:active:not(:disabled) {
+  background-color: var(--interactive-tertiary-surface-active);
+}
+
+/* Danger */
+.danger {
+  background-color: var(--status-danger-surface);
+  border-color: var(--status-danger-border);
+  color: var(--status-danger-on-surface);
+}
+.danger:hover:not(:disabled) {
+  filter: brightness(0.92);
+}
+
+/* Disabled state */
+.disabled {
+  background-color: var(--interactive-primary-surface-disabled);
+  border-color: var(--interactive-primary-border-disabled);
+  color: var(--interactive-primary-on-surface-disabled);
+  opacity: 0.6;
+  cursor: not-allowed;
+  pointer-events: none;
+}

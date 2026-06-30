@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Do not edit directly, this file was auto-generated.
+-->
+<resources>
+  <color name="color_primitive_gray_0">#ffffffff</color>
+  <color name="color_primitive_gray_50">#fff9fafb</color>
+  <color name="color_primitive_gray_100">#fff3f4f6</color>
+  <color name="color_primitive_gray_200">#ffe5e7eb</color>
+  <color name="color_primitive_gray_300">#ffd1d5db</color>
+  <color name="color_primitive_gray_400">#ff9ca3af</color>
+  <color name="color_primitive_gray_500">#ff6b7280</color>
+  <color name="color_primitive_gray_600">#ff4b5563</color>
+  <color name="color_primitive_gray_700">#ff374151</color>
+  <color name="color_primitive_gray_800">#ff1f2937</color>
+  <color name="color_primitive_gray_900">#ff111827</color>
+  <color name="color_primitive_gray_950">#ff030712</color>
+  <color name="color_primitive_blue_50">#ffeff6ff</color>
+  <color name="color_primitive_blue_100">#ffdbeafe</color>
+  <color name="color_primitive_blue_200">#ffbfdbfe</color>
+  <color name="color_primitive_blue_300">#ff93c5fd</color>
+  <color name="color_primitive_blue_400">#ff60a5fa</color>
+  <color name="color_primitive_blue_500">#ff3b82f6</color>
+  <color name="color_primitive_blue_600">#ff2563eb</color>
+  <color name="color_primitive_blue_700">#ff1d4ed8</color>
+  <color name="color_primitive_blue_800">#ff1e40af</color>
+  <color name="color_primitive_blue_900">#ff1e3a8a</color>
+  <color name="color_primitive_indigo_50">#ffeef2ff</color>
+  <color name="color_primitive_indigo_100">#ffe0e7ff</color>
+  <color name="color_primitive_indigo_500">#ff6366f1</color>
+  <color name="color_primitive_indigo_600">#ff4f46e5</color>
+  <color name="color_primitive_indigo_700">#ff4338ca</color>
+  <color name="color_primitive_indigo_800">#ff3730a3</color>
+  <color name="color_primitive_indigo_900">#ff312e81</color>
+  <color name="color_primitive_teal_50">#fff0fdfa</color>
+  <color name="color_primitive_teal_100">#ffccfbf1</color>
+  <color name="color_primitive_teal_200">#ff99f6e4</color>
+  <color name="color_primitive_teal_300">#ff5eead4</color>
+  <color name="color_primitive_teal_400">#ff2dd4bf</color>
+  <color name="color_primitive_teal_500">#ff14b8a6</color>
+  <color name="color_primitive_teal_600">#ff0d9488</color>
+  <color name="color_primitive_teal_700">#ff0f766e</color>
+  <color name="color_primitive_teal_800">#ff115e59</color>
+  <color name="color_primitive_teal_900">#ff134e4a</color>
+  <color name="color_primitive_emerald_50">#ffecfdf5</color>
+  <color name="color_primitive_emerald_100">#ffd1fae5</color>
+  <color name="color_primitive_emerald_500">#ff10b981</color>
+  <color name="color_primitive_emerald_600">#ff059669</color>
+  <color name="color_primitive_emerald_700">#ff047857</color>
+  <color name="color_primitive_emerald_800">#ff065f46</color>
+  <color name="color_primitive_emerald_900">#ff064e3b</color>
+  <color name="color_primitive_green_50">#fff0fdf4</color>
+  <color name="color_primitive_green_100">#ffdcfce7</color>
+  <color name="color_primitive_green_500">#ff22c55e</color>
+  <color name="color_primitive_green_600">#ff16a34a</color>
+  <color name="color_primitive_green_700">#ff15803d</color>
+  <color name="color_primitive_yellow_50">#fffefce8</color>
+  <color name="color_primitive_yellow_100">#fffef9c3</color>
+  <color name="color_primitive_yellow_500">#ffeab308</color>
+  <color name="color_primitive_yellow_600">#ffca8a04</color>
+  <color name="color_primitive_yellow_700">#ffa16207</color>
+  <color name="color_primitive_red_50">#fffef2f2</color>
+  <color name="color_primitive_red_100">#fffee2e2</color>
+  <color name="color_primitive_red_400">#fff87171</color>
+  <color name="color_primitive_red_500">#ffef4444</color>
+  <color name="color_primitive_red_600">#ffdc2626</color>
+  <color name="color_primitive_red_700">#ffb91c1c</color>
+  <color name="color_primitive_red_900">#ff7f1d1d</color>
+</resources>
