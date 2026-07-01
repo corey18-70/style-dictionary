@@ -1,5 +1,8 @@
 node_modules/
 dist/
 src/tokens/
+storybook-static/
 .DS_Store
 *.local
+.claude/settings.local.json
+.claude/scheduled_tasks.lock
